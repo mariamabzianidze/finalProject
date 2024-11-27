@@ -1,0 +1,48 @@
+/* 1439px-769px */
+@media (max-width: 1181px) {
+  header {
+    padding: 16px 32px;
+  }
+  .header_logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .header_span {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+  /*  home section2 */
+  .section2 {
+    padding: 32px 0px;
+  }
+  .home_section2_sec {
+    overflow-x: scroll;
+  }
+  .home_section2_article {
+    width: 282px;
+  }
+  /* footer */
+  footer {
+    padding: 80px 32px;
+  }
+  /* artworks */
+  .artwork_section1 {
+    padding-inline: 32px;
+  }
+  .hide1 {
+    display: none;
+  }
+  .artworks_section1 {
+    padding: 120px 32px;
+  }
+  /* contact section */
+  .contact_section1 {
+    padding-inline: 32px;
+  }
+  iframe {
+    height: 264px;
+  }
+}
