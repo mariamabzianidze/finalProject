@@ -1,10 +1,9 @@
 /* 480px-320px */
 @media (max-width: 321px) {
-  /* header */
   header {
     padding: 16px 8px;
   }
-  /* home section 2 */
+  /* section2 */
   .home_section2 {
     padding: 48px 0 48px 8px;
   }
@@ -16,6 +15,21 @@
   footer {
     padding: 30px 43px;
   }
-  /* artwork */
-  /* contact */
+  /* contact  section*/
+  .contact_section1 {
+    height: 808px;
+  }
+  .inputs_container {
+    row-gap: 24px;
+  }
+  .form_title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .contact_form {
+    row-gap: 24px;
+  }
+  .inputs_container {
+    row-gap: 24px;
+  }
 }
