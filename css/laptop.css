@@ -15,32 +15,36 @@
     text-align: center;
   }
   /*  home section2 */
-  .section2 {
-    padding: 32px 0px;
+  .home_section2 {
+    padding-inline: 32px 0;
   }
   .home_section2_sec {
     overflow-x: scroll;
   }
   .home_section2_article {
-    width: 282px;
+    flex: 1 0 282px;
   }
   /* footer */
   footer {
-    padding: 80px 32px;
+    padding-inline: 32px;
   }
   /* artworks */
   .artwork_section1 {
     padding-inline: 32px;
   }
+  .artwork_article {
+    flex: 1 1 40%;
+  }
   .hide1 {
     display: none;
-  }
-  .artworks_section1 {
-    padding: 120px 32px;
   }
   /* contact section */
   .contact_section1 {
     padding-inline: 32px;
+  }
+  .form_section,
+  .map_section {
+    width: 100%;
   }
   iframe {
     height: 264px;
