@@ -5,7 +5,7 @@ let mob = document.querySelector(".header_nav");
 burg.addEventListener("click", () => {
   mob.style.left = "0px";
   X.style.display = "block";
-  burger.style.display = "none";
+  burg.style.display = "none";
 });
 // xclick
 X.addEventListener("click", () => {
